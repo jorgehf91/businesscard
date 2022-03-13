@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    min-height: 868px;
+    background-color: #23252C;
+}
+
+.info--container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    color: white;
+}
+
+.info--profile-pic {
+    with: 317px;
+    height: 317px;
+}
+
+.info--spec {
+    color: #F3BF99;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    margin-top: -1em;
+}
+
+.info--website {
+    margin-top: -15px;
+}
+
+.info--buttons-container {
+    display: flex;
+}
+
+.info--buttons-container > button {
+    width: 115px;
+    height: 34px;
+    margin: 9px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.info--email {
+    color: #374151;
+
+}
+
+.info--linkedin {
+    background-color: #5093E2;
+    border-color: #5093E2;
+    color: #fff;
+
+}
+
+/* ABOUT SECTION */
+.about--container {
+    width: 317px;
+    background-color: #1A1B21;
+}
+
+.about--title, .about--myself {
+    color: #fff;
+}
+
+.about--title {
+    font-size: 16px;
+}
+
+.about--myself {
+    font-size: 10.24px;
+}
+
+/* INTERESTS SECTION */
+
+.interests--container {
+    width: 317px;
+    background-color: #1A1B21;
+}
+
+.interests--title, .interests--list {
+    color: #fff;
+}
+
+.interests--title {
+    font-size: 16px;
+}
+.interests--list {
+    font-size: 10.24px;
+}
+
+/* FOOTER SECTION*/
+footer {
+    width: 317px;
+
+    display: flex;
+    justify-content: center;
+    background-color: #161619;
+    align-items: center;
+}
