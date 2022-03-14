@@ -1,13 +1,16 @@
 * {
     box-sizing: border-box;
     font-family: Inter, sans-serif;
+    
 }
 
 body {
     margin: 0;
+    background-color: rgb(28,28,28);
 }
 
 .container {
+    margin-left: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +20,7 @@ body {
 }
 
 .info--container {
-    
+    margin-top: 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,11 +79,15 @@ body {
 }
 
 .about--title {
+    margin-left: 36px;
     font-size: 16px;
 }
 
 .about--myself {
+    margin: 0 34px 0 36px;
+    width: 247px;
     font-size: 10.24px;
+    line-height: 150%;
 }
 
 /* INTERESTS SECTION */
@@ -95,18 +102,33 @@ body {
 }
 
 .interests--title {
+    margin-left: 36px;
     font-size: 16px;
 }
 .interests--list {
+    margin: 0 34px 24px 36px;
+    width: 247px;
     font-size: 10.24px;
+    line-height: 150%;
 }
 
 /* FOOTER SECTION*/
 footer {
     width: 317px;
-
+    height: 64px;
+    color: #918E9B;
     display: flex;
     justify-content: center;
     background-color: #161619;
     align-items: center;
 }
+
+.footer--icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 20px;
+}
+/*
+.footer--twitter {
+    color: #918E9B;
+}*/

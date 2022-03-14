@@ -6,10 +6,10 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <FontAwesomeIcon icon={faTwitterSquare} />
-                <FontAwesomeIcon icon={faFacebookSquare} />
-                <FontAwesomeIcon icon={faInstagramSquare} />
-                <FontAwesomeIcon icon={faGithubSquare} />
+                <FontAwesomeIcon icon={faTwitterSquare} className="footer--icon twitter" />
+                <FontAwesomeIcon icon={faFacebookSquare} className="footer--icon facebook" />
+                <FontAwesomeIcon icon={faInstagramSquare} className="footer--icon instagram" /> 
+                <FontAwesomeIcon icon={faGithubSquare} className="footer--icon gh"/>
             </footer>
         </> 
     );
